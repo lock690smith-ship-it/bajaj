@@ -1,0 +1,17 @@
+fastapi
+uvicorn[standard]
+pydantic
+python-dotenv
+langchain
+langchain-google-genai
+langchain-pinecone
+langchain-community
+pypdf
+python-docx
+beautifulsoup4
+tiktoken
+requests
+gunicorn
+# New dependencies for UnstructuredPDFLoader
+unstructured[all-docs]  # Includes PDF, docx, eml, tables, etc.
+pdfminer.six             # Backend parser used by Unstructured

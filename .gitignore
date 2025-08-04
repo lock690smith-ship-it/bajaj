@@ -1,0 +1,43 @@
+# Python virtual environment
+venv/
+.env
+.env.*
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# VSCode or PyCharm settings
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# OS/system files
+.DS_Store
+Thumbs.db
+
+# Pip cache / build artifacts
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+
+# Jupyter or IPython
+.ipynb_checkpoints/
+
+# Test/report tools
+coverage.*
+htmlcov/
+.cache/
+.tox/
+
+# Unstructured temporary files (if used)
+*.tmp
+*.pdf.raw
+
+# Misc
+*.sqlite3
